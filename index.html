@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+
+        <h1 class=titulo>Cadastro</h1>
+
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" id="nome" required="required" />        
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required="required" />        
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" required="optional" placeholder="Opcional" />       
+
+        <label for="logradouro">Logradouro</label>
+        <input type="text" id="logradouro" name="logradouro" required="required" />        
+
+        <label for="numero">Número</label>
+        <input type="number" id="numero" name="numero" required="required" />
+        
+        <label for="bairro">Bairro </label>
+        <input type="text" id="bairro" name="bairro" required="optional" placeholder="Opcional" />
+        
+        <label for="Cidade">Cidade </label>
+        <input type="text" id="Cidade" name="Cidade" required="required" />
+        
+        <label for="estado">Estado </label>
+        <select name="estado" id="estado">
+            <option selected="" value="">Selecione o Estado (UF)</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RS">RS</option>
+            <option value="RN">RN</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+        
+
+        <label for="cep">CEP </label>
+        <input type="number" id="cep" name="cep" required="required" />
+        </div>
+
+
+
+        </div>
+
+        <label>
+            <input type="radio" name="civil" value="solteiro"> Solteiro(a)
+        </label>
+        </div>
+
+        <label>
+            <input type="radio" name="civil" value="casado"> Casado (a)
+        </label>
+        </div>
+
+        <label>
+            <input type="radio" name="civil" value="divorciado"> Divorciado (a)
+        </label>
+        </div>
+
+        <label>
+            <input type="radio" name="civil" value="viúvo"> Viúvo (a)
+        </label>
+        </div>
+
+        <label>
+            <input type="radio" name="civil" value="separado"> Separado (a)
+        </label>
+        </div>
+
+
+        <p>⬇️Opção de contato⬇️</p>
+        <div>
+            <input type="checkbox" id="opcaoemail" name="opcaoemail">
+            <label for="opcaoemail">Email</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="opcaotelefone" name="opcaotelefone">
+            <label for="opcaotelefone">Telefone</label>
+        </div>
+
+
+        <hr>
+        <div>
+            <input type="checkbox" name="concordo" id="concordo">
+            <label for="concordo">Li e concordo</label>
+        </div>
+
+        </div>
+        <button class="botao" type="submit">Enviar</button>
+        <button class="botao" type="reset">Reiniciar</button>
+
+    </form>
+</body>
+
+</html>
